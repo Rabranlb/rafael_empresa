@@ -1,15 +1,19 @@
 public class Programa {
+    //Declaração de classe Programa;
 	public static void main(String[] args) {
-		
+        //Método principal main;
+        //Criar objeto na memária através do new, () = método construtor;
+        //Acessar todos os métodos;
 		Vendedor v = new Vendedor();
 		v.setDataDeEntrada("10/01/2010");
 		v.setDepartamento("Vendas");
 		v.setEstaNaEmpresa(true);
-		v.setNome("Eduardo");
+		v.setNome("Breno");
 		v.setRg("45");
 		v.calculaSalario();		
 		 
-		
+		//Criar objeto na memária através do new, () = método construtor;
+        //Acessar todos os métodos;
 		Gerente g1 = new Gerente();
 		g1.departamento = "Vendas";
 		g1.dataDeEntrada = "03/02/1990";
@@ -18,19 +22,18 @@ public class Programa {
 		g1.rg = "48";
 		g1.salario = 3500.0;
 		g1.calculaSalario();
-		
-		
 		g1.setLogin("eric");
 		g1.setSenha("123");
-		
+		//Criar objeto na memária através do new, () = método construtor;
+        //Acessando ao método;
 		Supervisor supervisor = new Supervisor();
 		supervisor.salario = 5000.0;
-		
+		//Criar objeto na memária através do new, () = método construtor;
 		ControleDeBonificacao controle = new ControleDeBonificacao();
 		controle.calculaTotalDeBonus(v);
 		controle.calculaTotalDeBonus(g1);
 		controle.calculaTotalDeBonus(supervisor);
-			
+		//Saídas de texto, dos métodos;	
 		System.out.println(v.getDataDeEntrada());
 		System.out.println(v.getDepartamento());
 		System.out.println(v.getNome());

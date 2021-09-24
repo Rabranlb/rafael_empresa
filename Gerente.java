@@ -1,5 +1,5 @@
 public class Gerente extends Funcionario{
-     //Declaração de classe Gerente, junta herença;
+     //Declaração de classe Gerente, junta herença funcionario;
      //Encapsulamento da variável login;
 	private String login;
     //Encapsulamento da variável senha;
